@@ -8,7 +8,7 @@
 //
 // اجرا:
 //   NAVASAN_API_KEY=کلید_خودت node server.js
-
+ 
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
