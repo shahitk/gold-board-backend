@@ -17,7 +17,7 @@ const fetch = require("node-fetch"); // v2 برای CommonJS
 const app = express();
 app.use(cors());
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 10000;
 const API_KEY = process.env.BRSAPI_KEY; // هرگز این کلید رو توی فرانت‌اند/کد سمت کاربر نذار
 
 // این نگاشت رو مستقیم از نمونه واقعی پاسخ BrsApi استخراج کردیم (نه حدسی)
